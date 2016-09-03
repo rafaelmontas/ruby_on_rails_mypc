@@ -24,4 +24,7 @@ $(document).ready(function() {
   $(".icon-close").click(function() {
     $(".menu").animate({left: '-240px'});
   });
+  $(".menu li a").click(function() {
+    $(".menu").animate({left: '-240px'});
+  });
 });
