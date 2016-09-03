@@ -8,11 +8,17 @@
 				<%= form_for(@signup) do |f| %>
       			<div class="form-group"> 
 	            <%= f.label "first name"  %><br> 
-	            <%= f.text_field :firstname %> 
-	            <%= f.submit "Join", class:'btn' %> 
-          	</div> 
+	            <%= f.text_field :firstname, class:"form-control" %> 
+          	</div>
+          	<div class="form-group"> 
+	            <%= f.label "Email"  %><br> 
+	            <%= f.text_field :email, class:"form-control" %> 
+          	</div>  
         <% end %>
+        <%= f.submit "Join", class:'btn btn-default' %>
 			</div>
 		</div>
 	</div>
 </div>
+
+
