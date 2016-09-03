@@ -103,9 +103,9 @@ body {
     position: fixed;
     top: 0;
     width: 240px;
-    left: 0px;
+    left: -240px;
     z-index: 1;
-  	display: none;
+  	/*display: none;*/
 }
 
 .menu ul {
