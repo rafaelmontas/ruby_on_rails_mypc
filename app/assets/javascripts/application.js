@@ -18,10 +18,10 @@
 
 $(document).ready(function() {
   $(".icon-menu").click(function(){
-    $(".menu").animate({left: '240px'});
+    $(".menu").animate({left: '0px'});
   });
   
   $(".icon-close").click(function() {
-    $(".menu").toggle();
+    $(".menu").animate({left: '-240px'});
   });
 });
