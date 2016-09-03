@@ -1,4 +1,4 @@
-class CreateSignups < ActiveRecord::Migration[5.0]
+class CreateSignups < ActiveRecord::Migration
   def change
     create_table :signups do |t|
     	t.string :firstname
