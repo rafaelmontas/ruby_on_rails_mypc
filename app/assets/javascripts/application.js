@@ -18,7 +18,7 @@
 
 $(document).ready(function() {
   $(".icon-menu").click(function(){
-    $(".menu").toggle();
+    $(".menu").toggle("slide");
   });
   
   $(".icon-close").click(function() {
